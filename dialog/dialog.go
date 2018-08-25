@@ -41,7 +41,7 @@ func (d *Dialog) Init(kind string, args ...interface{}) *Dialog {
 			f := w.NewFrame("Account") // TODO: translate
 			if len(aps) >= 1 {
 				label := "Login:" // TODO: translate
-				if len(aps) > 3 {
+				if len(aps) >= 3 {
 					label = "E-mail address:" // TODO: translate
 				}
 				f.NewLabel(label)
