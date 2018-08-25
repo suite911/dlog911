@@ -52,6 +52,9 @@ func (g *ButtonGroup) Init(kind string) *ButtonGroup {
 	case "login":
 		g.Left = []ButtonDef{login, register}
 		g.Right = cancel
+	case "register":
+		g.Left = []ButtonDef{register}
+		g.Right = cancel
 	case "yesno", "yesnocancel":
 		g.Left = []ButtonDef{yes, no}
 		g.Right = cancel
