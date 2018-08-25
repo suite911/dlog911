@@ -1,8 +1,8 @@
 package dialog
 
 import (
-	"github.com/amy911/amy911/onfail"
-	"github.com/amy911/amy911/str"
+	"github.com/suite911/error911/onfail"
+	"github.com/suite911/str911/str"
 )
 
 var (
